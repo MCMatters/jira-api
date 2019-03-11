@@ -35,7 +35,9 @@ abstract class AbstractResource
                 'Content-type' => 'application/json',
                 'Accept' => 'application/json',
             ],
-            'bool_as_string' => true,
+            'query_params' => [
+                'bool_as_string' => true,
+            ],
         ]);
     }
 
